@@ -1,0 +1,12 @@
+.storybook-input[type=text] {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.storybook-label {
+    display: block;
+    margin-bottom: 4px;
+    position: relative;
+    cursor: pointer;
+}

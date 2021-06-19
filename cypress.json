@@ -1,0 +1,11 @@
+{
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 15000,
+  "nodeVersion": "system",
+  "screenshotOnRunFailure": false,
+  "trashAssetsBeforeRuns": false,
+  "video": false,
+  "viewportHeight": 1200,
+  "viewportWidth": 1920,
+  "watchForFileChanges": false
+}
