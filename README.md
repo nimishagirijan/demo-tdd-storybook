@@ -1,4 +1,6 @@
-# demo-storybook-tddRepository with examples of how to do TDD and testing components in Storybook
+# demo-storybook-tdd
+Repository with examples of how to do TDD and testing components in Storybook
+
 ## Tech Stack  
 - [TypeScript](https://www.typescriptlang.org/)  
 - [React](https://reactjs.org/) 
@@ -21,10 +23,13 @@ In the project directory, you can run:
 ```sh
 # Install packages
 yarn
+
 # Builds the app for production to the `build` folder
 yarn build
+
 # Run unit tests in the interactive watch mode
 yarn test
+
 # Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
 yarn start
 ```
@@ -46,8 +51,9 @@ To *run* locally without the UI:
 Test first approach which helps me develop better software with cleaner code.
 ### How TDD helped me learn technology better
 States a simple thing - start small.
-For example:
-Create a button
+
+For example:Create a button
+
 1. Write a test to see if the button exists
 2. Once the test fails, create a button
 3. Write another test to display warning on click of a button
@@ -58,7 +64,7 @@ Create a button
 Lets do the following tasks:
 1. Create a button with background color as blue
 2. On the button click, let us display an warning message
-3. 
+
 ### Storybook - to provide a playground
 Storybook is a tool for UI development. It makes development faster and easier by isolating components. 
 This allows you to work on one component at a time. You can develop entire UIs without needing to start up a complex dev stack, force certain data into your database, or navigate around your application.
